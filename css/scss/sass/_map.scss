@@ -19,17 +19,11 @@
 	    font-weight:bold;
 	}
     #toggleLayer{
-	    position:absolute;
 	    margin-top:120px;
 	    right:37px;
 	    width:70px;
 	    height:20px;
-	    border-radius:5px;
-	    border:2px solid $widgetBorderColor;
-	    background-color:$widgetBackgroundColor;
-	    color:$widgetTextColor;
 	    font-size:12px;
-	    z-index:50;
 	    p{
 	    	margin:0;
 	    	padding:3px 0 0 0;
@@ -39,6 +33,16 @@
 	    	margin:5px 12px;
 	    }
 	}
+	#sourceCode{
+        width:40px;
+        height:20px;
+        margin-left:20px;
+        bottom:35px;
+        text-align:center;
+        cursor:pointer;
+        font-size:15px;
+        font-weight:bold;
+    }
     #BasemapToggle {
 	    position: absolute;
 	    margin-top: 20px;
@@ -62,6 +66,14 @@
 	    	margin:0;
 	    	padding:8px;
 	    }
+	}
+	.royWidget{
+		position:absolute;
+		background-color:$widgetBackgroundColor;
+        color:$widgetTextColor;
+        border:2px solid $widgetBorderColor;
+        border-radius:5px;
+        z-index:50;
 	}
 	#links{
 		position:absolute;

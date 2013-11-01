@@ -82,6 +82,7 @@ function init(){
       }
     });
   }
+
   function shrinkDiv(){
     jQuery(this).html("<p>Layers...</p>").stop().animate({height:"20px", width:"70px"}, "fast");
   }
@@ -142,6 +143,10 @@ function init(){
     projects.show();
     jQuery('#mapDiv').css("border", "15px solid #8cac65");
     jQuery('body').css("background", "#8cac65");
+  });
+
+  jQuery("#sourceCode").click(function(){
+    window.open("https://github.com/rhewitt22/RioLoco");
   });
 }
 
