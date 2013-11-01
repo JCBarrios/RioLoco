@@ -1,0 +1,40 @@
+#sidebar{
+	width:350px;
+    height:100%;
+    min-width:300px;
+    max-width:600px;
+    float:left;
+    color:white;
+    background-color:$sidebarColor;
+    #handle{
+	    width:10px;
+	    float:right;
+	    background:url("../../../img/handle.png") center center no-repeat;
+	    background-color:$handleColor;
+	}
+	#infowindow{
+	    padding:10px 20px;
+	    #prjTitle{
+		    margin:5px 0 10px 0;
+		}
+		#slider1{
+			padding:0;
+			margin:0;
+		}
+		#slider{
+			padding-bottom:60px;
+			margin:0;
+		}
+		#prjDescription{
+		    margin-top:20px;
+		    padding:5px 10px 0 5px;
+		    overflow-y:scroll;
+		}
+	}
+	#lastUpdate{
+		width:100%;
+		text-align:center;
+		margin:5px 0;
+		padding:0;
+	}
+}

@@ -1,0 +1,92 @@
+#mapDiv{
+    float:left;
+    height:100%;
+    border:15px solid $watershedColor;
+    border-right:none;
+    color:$tabColor;
+    #shedMap{
+  		margin:-49px 0 0 80px;
+    	background-color:$watershedColor;
+	}
+	#prjMap{
+	    margin:-49px 0 0 280px;
+	    background-color:$projectsColor;
+	}
+	.active{
+	    -webkit-box-shadow: 5px -5px 5px rgba(50, 50, 50, 0.75);
+	    -moz-box-shadow:    5px -5px 5px rgba(50, 50, 50, 0.75);
+	    box-shadow:         5px -5px 5px rgba(50, 50, 50, 0.75);
+	    font-weight:bold;
+	}
+    #toggleLayer{
+	    position:absolute;
+	    margin-top:120px;
+	    right:37px;
+	    width:70px;
+	    height:20px;
+	    border-radius:5px;
+	    border:2px solid $widgetBorderColor;
+	    background-color:$widgetBackgroundColor;
+	    color:$widgetTextColor;
+	    font-size:12px;
+	    z-index:50;
+	    p{
+	    	margin:0;
+	    	padding:3px 0 0 0;
+	    	text-align:center;
+	    }
+	    div{
+	    	margin:5px 12px;
+	    }
+	}
+    #BasemapToggle {
+	    position: absolute;
+	    margin-top: 20px;
+	    right: 37px;
+	    z-index: 50;
+	}
+	#HomeButton {
+    	position: absolute;
+ 	    margin-top:105px;
+  		margin-left:20px;
+  		z-index: 50;
+	}
+	.tab{
+	    position:absolute;
+	    margin:0;
+	    padding:0;
+	    &:hover{
+	    	cursor:pointer;
+	    }
+	    p{
+	    	margin:0;
+	    	padding:8px;
+	    }
+	}
+	#links{
+		position:absolute;
+		margin-left:10px;
+		bottom:20px;
+		z-index:50;
+		ul{
+			text-align:center;
+			font-size:10pt;
+			padding:0;
+			margin:0;
+			li{
+				padding:0 5px;
+				color:$lightLinks;
+				display:inline;
+				a{
+					color:$lightLinks;
+					&:link{
+						text-decoration:none
+					}
+					&:hover{
+						text-decoration:underline;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+html,body{padding:0;margin:0;height:100%;background-color:#333;font-family:"arial"}h1{font-size:14pt;font-weight:bold;text-align:center}
+h2{font-size:12pt;font-weight:bold;text-align:center}#header{width:100%;height:125px;background:url("../img/Top_Back.jpg")}#rio{color:#284b5f;position:absolute;top:0;left:65px;text-transform:uppercase;font-size:20pt;letter-spacing:-1px}
+#title{position:absolute;left:65px;top:3px;z-index:1;margin:0;padding:0;font-size:18pt;font-style:italic;color:white}#headerImage{float:right}#titleBar{position:absolute;background:url("../img/Top_sub_Bar.png");width:702px;height:35px;left:0;top:55px}
+#mapDiv1{width:75%;height:100%;float:left;overflow:hidden}#sidebar{width:25%;height:100%;float:left;color:white;background-color:#333;min-width:300px}
+#handle{clear:both;float:right;margin:0;padding:0;background:url("../img/handle.png") center center no-repeat;background-color:white;width:8px;height:100%}
+#prjTitle{margin-bottom:20px}#prjDescription{padding:15px 0 50px 0}#infowindow{padding:10px 20px}#slider1{padding-bottom:0}#slider{margin-bottom:0;padding-bottom:60px}
+#footer{position:fixed;left:0;bottom:0;height:50px;width:100%;background:#284b5f}#BasemapToggle{position:absolute;margin-top:20px;right:20px;z-index:50}
+#HomeButton{position:absolute;margin-top:105px;margin-left:20px;z-index:50}.tab{position:absolute;border-top:2px solid black;border-left:2px solid black;border-right:2px solid black;border-radius:8px;margin:0;padding:0;background-color:#ccc;color:#2e586e}
+.tab p{margin:0;padding:8px 8px 12px 8px}.tab:hover{cursor:pointer}#shedMap{margin:-35px 0 0 80px}#prjMap{margin:-35px 0 0 280px}.fluid_container{margin:0 auto;max-width:1000px;width:90%}
+.hidden{display:none}.block{display:block}.active{-webkit-box-shadow:5px -5px 5px rgba(50,50,50,0.75);-moz-box-shadow:5px -5px 5px rgba(50,50,50,0.75);box-shadow:5px -5px 5px rgba(50,50,50,0.75);font-weight:bold;background-color:#2e586e;color:#ccc}

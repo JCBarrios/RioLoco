@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rio Loco Restoration</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="http://js.arcgis.com/3.7/js/dojo/dijit/themes/claro/claro.css">
+  <link rel="stylesheet" href="http://js.arcgis.com/3.7/js/esri/css/esri.css">
+  <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css">
+  <!--<link rel="stylesheet" href="css/rioStyle.css">-->
+  <link rel="stylesheet" href="css/scss/stylesheets/rioloco.css">
+  <link rel="stylesheet" href="css/camera.css">
+
+</head>
+<body class="claro">
+
+  <div id="header">
+    <img id="headerImage" src="img/Top_Right_Banner.png">
+    <h1 id="rio">Rio Loco</h1>
+    <div id="titleBar">
+      <h1 id="title">Watershed Conservation Initiative</h1>
+    </div>
+  </div> <!-- End header -->
+
+  <div id="wrapper">
+    <div id="sidebar">
+      <div id="handle" title="I'm re-sizeable!"></div>
+      <div id="infowindow">
+
+        <div id="infoTop">
+          <div id="prjTitle"></div>
+          <div id="imgContainer"></div>
+        </div> <!-- End infoTop -->
+
+        <div id="prjDescription"></div>
+
+      </div> <!-- End infoWindow -->
+      <h3 id="lastUpdate">Last Updated: October 2013</h3>
+    </div> <!-- End Sidebar -->
+   
+    <div id="mapDiv">
+      
+      <div id="shedMap" class="tab active" title="Learn about the Watershed"><p class="tabText">About the Watershed</p></div>
+      <div id="prjMap" class="tab" title="Learn more about the restoration projects"><p class="tabText">Conservation Actions</p></div>
+      <div id="HomeButton"></div>
+      <div id="BasemapToggle"></div>
+      <div id="toggleLayer"><p>Layers...</p></div>
+
+      <!--
+      <div id="links">
+        <ul>
+          <li><a href="http://www.fws.gov/">FWS</a></li>
+          <li class="divider">|</li>
+          <li><a href="http://www.doi.gov/">DOI</a></li>
+          <li class="divider">|</li>
+          <li><a href="http://www.usa.gov/">USA.gov</a></li>
+          <li class="divider">|</li>
+          <li><a href="http://www.fws.gov/help/about_us.html">About FWS</a></li>
+          <li class="divider">|</li>
+          <li><a href="http://www.fws.gov/help/accessibility.html">Accessibility</a></li>
+          <li class="divider">|</li>
+          <li><a href="http://www.fws.gov/help/policies.html">Privacy</a></li>
+          <li class="divider">|</li>
+          <li><a href="http://www.fws.gov/help/notices.html">Notices</a></li>
+          <li class="divider">|</li>
+          <li><a href="http://www.fws.gov/help/disclaimer.html">Disclaimer</a></li>
+          <li class="divider">|</li>
+          <li><a href="http://www.fws.gov/irm/bpim/foia.html">FOIA</a></li>
+        </ul>
+      </div> <!-- End Links -->
+    </div> <!-- End Map -->
+  </div> <!-- End Wrapper -->
+
+  <!-- Javascript Files -->
+  <script src="http://js.arcgis.com/3.7/"></script>
+  <script src="js/camera/scripts/jquery.min.js"></script>
+  <script src="js/camera/scripts/jquery.easing.1.3.js"></script>
+  <script src="js/camera/scripts/camera.min.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+  <script src="js/jquery.ba-resize.min.js"></script>
+  <script src="js/rioLoco.js"></script>
+  
+</body>
+</html>

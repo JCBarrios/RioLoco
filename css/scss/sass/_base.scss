@@ -1,0 +1,17 @@
+html, body{
+	padding:0;
+	margin:0;
+	height:100%;
+	background-color:$watershedColor;
+	font-family:"arial";
+	h1{
+		font-size:14pt;
+		font-weight:bold;
+		text-align:center;
+	}
+	h2{
+		font-size:12pt;
+		font-weight:bold;
+		text-align:center;
+	}
+}
