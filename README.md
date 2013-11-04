@@ -1,7 +1,7 @@
 Rio Loco  Restoration Story Map
 -------------
 
-This web mapping application was designed to highlight the ongoing restoration efforts in the Rio Loco watershed in South Western Puerto Rico.  These restoration efforts seeks to improve water quality by reducing the sediment load of the river.
+This web mapping application was designed to highlight the ongoing restoration efforts in the Rio Loco watershed in South Western Puerto Rico.  These projects seek to improve water quality by reducing the sediment load of the river.
 
 According to ESRI [story maps][1] combine intelligent Web maps with Web applications and templates that incorporate text, multimedia, and interactive functions. Story maps inform, educate, entertain, and inspire people about a wide variety of topics.
 
